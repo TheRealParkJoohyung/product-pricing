@@ -57,3 +57,27 @@
  ┃ ┣ 📜reset.css
  ┃ ┗ 📜style.css
 ```
+### 4.2 개발 일정(WBS)
+```mermaid
+gantt
+    title FE Part Schedule
+    dateFormat YYYY-MM-DD
+    section Main Block
+        메인 블록 :2024-02-12, 2d
+    section User Input Block
+        사용자 입력 블록 :2024-02-12, 2d
+    section Sub Block
+        서브 블록 :2024-02-12, 2d
+    section About Page Block
+        About 페이지 블록 :2024-02-12, 2d
+    section Contact Page Block
+        Contact 페이지 블록 :2024-02-12, 2d
+    section 조회 블록
+        조회 블록 :2024-02-12, 2d
+    section 웹 통신 블록
+        웹 통신 블록 :2024-02-13, 3d
+    section 테스트 블록
+        테스트 블록 :2024-02-15, 2d
+    section 배포 블록
+        배포 블록 :2024-02-15, 2d
+```
