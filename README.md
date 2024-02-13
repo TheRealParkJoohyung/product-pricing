@@ -68,9 +68,9 @@ gantt
         사용자 입력 블록 :2024-02-12, 2d
     section 서브
         서브 블록 :2024-02-12, 2d
-    section About 페이지
+    section About
         About 페이지 블록 :2024-02-12, 2d
-    section Contact 페이지
+    section Contact
         Contact 페이지 블록 :2024-02-12, 2d
     section 조회
         조회 블록 :2024-02-12, 2d
