@@ -27,13 +27,13 @@
 
 ## 3. 요구사항 명세와 기능 명세 
 ```mermaid
-    sequenceDiagram
-    actor A as client
-    participant B as Web
-    participant C as Chat GPT API
-    A->>+B: 질문 요청
-    B->>+C: 질문 전달
-    C->>+B: 답변 전달
-    B->>+A: 질문 및 답변 출력
+    sequenceDiagram;
+    actor A as client;
+    participant B as Web;
+    participant C as Chat GPT API;
+    A->>+B: 질문 요청;
+    B->>+C: 질문 전달;
+    C->>+B: 답변 전달;
+    B->>+A: 질문 및 답변 출력;
     end
 ```
