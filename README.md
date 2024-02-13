@@ -48,16 +48,12 @@
 
 ## 4. 프로젝트 구조와 개발 일정
 ### 4.1 프로젝트 구조 
-📦product_pricing 
- ┣ 
-   📂styles  
-     ┣ 
-     📜reset.css
-     ┣ 
-     📜style.css  
- ┣ 
-   📂main 
-     ┣ 
-     📜index.html
-     ┣ 
-     📜index.js
+📦Product_pricing
+┣ 📂styles
+
+┃ ┣ 📜reset.css
+┃ ┣ 📜style.css
+
+┣ 📂main
+┃ ┣ 📜index.html
+┃ ┣ 📜index.js
