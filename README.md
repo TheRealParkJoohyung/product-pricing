@@ -16,4 +16,9 @@
 
 ## 2. 개발 환경 및 배포 URL
 ### 2.1 개발 환경
+- Vanilla JS
+- 서비스 배포 환경
+  - GitHub Pages
+
+### 2.2 배포 URL
 - 
