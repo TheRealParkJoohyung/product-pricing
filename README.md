@@ -51,7 +51,7 @@
 📦Product_pricing 
  ┣ 📂styles  
  ┃ ┣ 📜reset.css
- ┃ ┗ 📜style.css  
+ ┃ ┣ 📜style.css  
  ┣ 📂main 
  ┃ ┣ 📜index.html
- ┃ ┗ 📜index.js
+ ┃ ┣ 📜index.js
