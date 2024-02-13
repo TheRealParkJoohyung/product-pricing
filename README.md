@@ -62,22 +62,22 @@
 gantt
     title FE Part Schedule
     dateFormat YYYY-MM-DD
-    section M
+    section 메인
         메인 블록 :2024-02-12, 2d
-    section User Input Block
+    section 사용자 입력
         사용자 입력 블록 :2024-02-12, 2d
-    section Sub Block
+    section 서브
         서브 블록 :2024-02-12, 2d
-    section About Page Block
+    section About 페이지
         About 페이지 블록 :2024-02-12, 2d
-    section Contact Page Block
+    section Contact 페이지
         Contact 페이지 블록 :2024-02-12, 2d
-    section 조회 블록
+    section 조회
         조회 블록 :2024-02-12, 2d
-    section 웹 통신 블록
+    section 웹 통신
         웹 통신 블록 :2024-02-13, 3d
-    section 테스트 블록
+    section 테스트
         테스트 블록 :2024-02-15, 2d
-    section 배포 블록
+    section 배포
         배포 블록 :2024-02-15, 2d
 ```
