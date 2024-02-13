@@ -30,7 +30,7 @@
     sequenceDiagram
     actor A as client
     participant B as Web
-    participant C as server
+    participant C as Chat GPT API
     A->>+B: 로그인 요청
     B->>+A: 로그인 정보 요구
     A->>+C: id, pw 전달
