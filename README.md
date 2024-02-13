@@ -48,9 +48,9 @@
 
 ## 4. 프로젝트 구조와 개발 일정
 ### 4.1 프로젝트 구조 
-📦product_pricing
- ┣ 📂reset.css
- ┃ ┣ 📂reset.css
+📦tutorial  
+ ┣ 📂accounts  
+ ┃ ┣ 📂migrations  
  ┃ ┣ 📂__pycache__  
  ┃ ┣ 📜admin.py  
  ┃ ┣ 📜apps.py  
@@ -60,3 +60,14 @@
  ┃ ┣ 📜urls.py  
  ┃ ┣ 📜views.py  
  ┃ ┗ 📜__init__.py  
+ ┣ 📂blog  
+ ┃ ┣ 📂migrations  
+ ┃ ┣ 📂__pycache__  
+ ┃ ┣ 📜admin.py  
+ ┃ ┣ 📜apps.py  
+ ┃ ┣ 📜forms.py  
+ ┃ ┣ 📜models.py  
+ ┃ ┣ 📜tests.py  
+ ┃ ┣ 📜urls.py  
+ ┃ ┣ 📜views.py  
+ ┃ ┗ 📜__init__.py 
