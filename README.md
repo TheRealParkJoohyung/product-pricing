@@ -26,7 +26,7 @@
 ### 2.3 URL 구조
 
 ## 3. 요구사항 명세와 기능 명세 
-    sequenceDiagram
+```sequenceDiagram
     actor A as client
     participant B as Web
     participant C as Chat GPT API
@@ -34,4 +34,4 @@
     B->>+C: 질문 전달
     C->>+B: 답변 전달
     B->>+A: 질문 및 답변 출력
-
+```
