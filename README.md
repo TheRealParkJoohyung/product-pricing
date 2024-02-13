@@ -62,7 +62,7 @@
 gantt
     title FE Part Schedule
     dateFormat YYYY-MM-DD
-    section Main Block
+    section M
         메인 블록 :2024-02-12, 2d
     section User Input Block
         사용자 입력 블록 :2024-02-12, 2d
