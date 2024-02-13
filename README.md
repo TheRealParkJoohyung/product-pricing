@@ -63,7 +63,6 @@ gantt
     todayMarker off
     title FE Part Schedule
     dateFormat YYYY-MM-DD
-    section 작업
         메인 :2024-02-12, 2d
         사용자 입력 :2024-02-12, 2d
         서브 :2024-02-12, 2d
