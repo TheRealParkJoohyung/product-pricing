@@ -27,13 +27,18 @@
 
 ## 3. 요구사항 명세와 기능 명세 
 ```mermaid
-sequenceDiagram;
-    actor A as client;
-    participant B as Web;
-    participant C as Chat GPT API;
-    A->>+B: 질문 요청;
-    B->>+C: 질문 전달;
-    C->>+B: 답변 전달;
-    B->>+A: 질문 및 답변 출력;
+    sequenceDiagram
+    actor A as client
+    participant B as Web
+    participant C as server
+    A->>+B: 로그인 요청
+    B->>+A: 로그인 정보 요구
+    A->>+C: id, pw 전달
+    alt 로그인 정보가 있고 로그인 정보가 맞을 시
+    C->>+B: access token, refresh token 전달
+    B->>+A: 로그인 성공
+    else 로그인 정보가 없거나 정보가 맞지 않을시
+    C->>+B: False
+    B->>+A: 로그인 실패
     end
 ```
