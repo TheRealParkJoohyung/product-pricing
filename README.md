@@ -34,7 +34,7 @@
     A->>+B: 질문 입력
     B->>+C: 질문 전달
     alt 질문이 올바른 양식인 경우 
-    C->>+B: access token, refresh token 전달
+    C->>+B: 답변 전달
     B->>+A: 로그인 성공
     else 로그인 정보가 없거나 정보가 맞지 않을시
     C->>+B: False
