@@ -31,10 +31,9 @@
     actor A as client
     participant B as Web
     participant C as Chat GPT API
-    A->>+B: 로그인 요청
-    B->>+A: 로그인 정보 요구
-    A->>+C: id, pw 전달
-    alt 로그인 정보가 있고 로그인 정보가 맞을 시
+    A->>+B: 질문 입력
+    B->>+C: 질문 전달
+    alt 질문이 올바른 양식인 경우 
     C->>+B: access token, refresh token 전달
     B->>+A: 로그인 성공
     else 로그인 정보가 없거나 정보가 맞지 않을시
