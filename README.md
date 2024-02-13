@@ -60,6 +60,7 @@
 ### 4.2 개발 일정(WBS)
 ```mermaid
 gantt
+    todayMarker off
     title FE Part Schedule
     dateFormat YYYY-MM-DD
     section 작업
