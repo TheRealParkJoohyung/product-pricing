@@ -39,10 +39,10 @@
     participant C as Chat GPT API
     A->>+B: 질문 입력
     B->>+C: 질문 전달
-    alt 질문이 올바른 양식인 경우 
+    alt 통신 성공
     C->>+B: 답변 전달
     B->>+A: 질문과 답변 출력
-    else 질문이 틀린 양식인 경우
+    else 통신 실패 
     C->>+B: 에러
     B->>+A: 에러 문구 출력
     end
