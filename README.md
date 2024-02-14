@@ -125,7 +125,6 @@
 gantt
     todayMarker off
 dateFormat YYYY-MM-DD
-title 개발 스케줄
 
 section 홈 화면
 'home/' 요청 로직 구현 :2024-02-12, 1d
