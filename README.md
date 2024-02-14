@@ -70,15 +70,38 @@
     actor A as client
     participant B as Web
     participant C as Chat GPT API
-    A->>+B: 질문 입력
+    participant D as Main App
+    participant E as Accounts App
+    participant F as Styles App
+
+    A->>+B: 홈 화면 로딩
+    B->>+D: 'home/' 요청
+    D-->>-B: main/home.js 전달
+    B-->>-A: 홈 화면 출력
+
+    A->>+B: 회원가입 클릭
+    B->>+E: 'sign_up/' 요청
+    E-->>-B: accounts/sign_up.html 전달
+    B-->>-A: 회원가입 화면 출력
+
+    A->>+B: 로그인 클릭
+    B->>+E: 'log_in/' 요청
+    E-->>-B: accounts/log_in.html 전달
+    B-->>-A: 로그인 화면 출력
+
+    A->>+B: 질문 입력 후 버튼 클릭 또는 엔터 입력
     B->>+C: 질문 전달
     alt 통신 성공
     C->>+B: 답변 전달
     B->>+A: 질문과 답변 출력
     else 통신 실패 
-    C->>+B: 에러
+    C->>+B: 에러 메시지 전달
     B->>+A: 에러 문구 출력
     end
+
+    B->>+F: 스타일 요청
+    F-->>-B: styles/reset.css, styles/style.css 전달
+    B-->>-A: 스타일 적용
 ```
 
 ## 4. 프로젝트 구조와 개발 일정
