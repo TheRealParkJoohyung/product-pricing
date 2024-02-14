@@ -57,6 +57,13 @@
 | styles    | 'reset/'                                  | reset             | styles/reset.css                 | CSS 초기화      |
 | styles    | 'style/'                                  | style             | styles/style.css                 | CSS 스타일      |
 
+### 2.4 Chat GPT 통신
+
+| Action | Method | Data Sent | Response |
+|--------|--------|-----------|----------|
+| 버튼 클릭 또는 엔터 입력 | POST | 사용자 입력 데이터 | ChatGPT의 응답 |
+
+
 ## 3. 요구사항 명세와 기능 명세 
 ```mermaid
     sequenceDiagram
