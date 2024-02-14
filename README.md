@@ -57,7 +57,7 @@
 | styles    | 'reset/'                                  | reset             | styles/reset.css                 | CSS 초기화      |
 | styles    | 'style/'                                  | style             | styles/style.css                 | CSS 스타일      |
 
-### 2.4 Chat GPT 통신
+### 2.4 ChatGPT 통신
 
 | Action | Method | Data Sent | Response |
 |--------|--------|-----------|----------|
