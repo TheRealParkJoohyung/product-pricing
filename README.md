@@ -54,8 +54,8 @@
 
 | App       | URL                                        | Views Function    | File Name                        | Note           |
 |-----------|--------------------------------------------|-------------------|----------------------------------|----------------|
-| styles    | '/reset/'                                  | reset             | styles/reset.css                 | CSS 초기화      |
-| styles    | '/style/'                                  | style             | styles/style.css                 | CSS 스타일      |
+| styles    | 'reset/'                                  | reset             | styles/reset.css                 | CSS 초기화      |
+| styles    | 'style/'                                  | style             | styles/style.css                 | CSS 스타일      |
 
 ## 3. 요구사항 명세와 기능 명세 
 ```mermaid
