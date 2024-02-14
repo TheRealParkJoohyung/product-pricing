@@ -28,8 +28,18 @@
 
 ### 2.2 배포 URL
 - https://joohyungdev.github.io/product-pricing/
+- 테스트용 계정
+  ```
+  id : admin
+  pw : 1q2w3e4r
+  ```
 
 ### 2.3 URL 구조
+- main
+
+| App       | URL                                        | Views Function    | File Name                        | Note           |
+|-----------|--------------------------------------------|-------------------|----------------------------------|----------------|
+| main      | '/'                                        | home              | main/home.js                     | 홈화면 동작     |
 
 ## 3. 요구사항 명세와 기능 명세 
 ```mermaid
@@ -58,11 +68,11 @@
  ┃ ┣ 📜log_in.html
  ┃ ┗ 📜sign_up.html
  ┣ 📂main
- ┃ ┗ 📜index.js
+ ┃ ┗ 📜home.js
  ┣ 📂styles
  ┃ ┣ 📜reset.css
  ┃ ┗ 📜style.css
- ┗ 📜index.html
+ ┗ 📜home.html
 ```
 ### 4.2 개발 일정(WBS)
 ```mermaid
