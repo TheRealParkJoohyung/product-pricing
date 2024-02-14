@@ -50,6 +50,11 @@
 ### 4.1 프로젝트 구조 
 ```
 📦product_pricing
+ ┣ 📂accounts
+ ┃ ┣ 📜find_id.html
+ ┃ ┣ 📜find_password.html
+ ┃ ┣ 📜log_in.html
+ ┃ ┗ 📜sign_up.html
  ┣ 📂main
  ┃ ┣ 📜index.html
  ┃ ┗ 📜index.js
