@@ -127,32 +127,32 @@ gantt
 dateFormat YYYY-MM-DD
 title 개발 스케줄
 
-section 홈 화면 개발
+section 홈 화면
 'home/' 요청 로직 구현 (Main App) :2024-02-12, 1d
 main/home.js 작성 :2024-02-12, 1d
 홈 화면 테스트 :2024-02-12, 1d
 
-section 스타일 개발
+section 스타일
 styles/reset.css 작성 :2024-02-12, 1d
 styles/style.css 작성 :2024-02-12, 1d
 스타일 적용 테스트 :2024-02-12, 1d
 
-section 회원가입 화면 개발
+section 회원가입 화면
 'sign_up/' 요청 처리 로직 구현 (Accounts App) :2024-02-13, 1d
 accounts/sign_up.html 작성 :2024-02-13, 1d
 회원가입 화면 테스트 :2024-02-13, 1d
 
-section 로그인 화면 개발
+section 로그인 화면
 'log_in/' 요청 처리 로직 구현 (Accounts App) :2024-02-14, 1d
 accounts/log_in.html 작성 :2024-02-14, 1d
 로그인 화면 테스트 :2024-02-14, 1d
 
-section 질문-답변 기능 개발
+section 질문-답변 기능
 질문 전달 및 응답 처리 로직 구현 (Chat GPT API) :2024-02-15, 1d
 에러 처리 로직 구현 :2024-02-15, 1d
 질문-답변 기능 테스트 :2024-02-15, 1d
 
-section 전체 시스템 통합 테스트
+section 통합 테스트
 전체 시스템 통합 테스트 :2024-02-15, 1d
 
 section 배포
