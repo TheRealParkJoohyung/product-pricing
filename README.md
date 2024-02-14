@@ -158,4 +158,6 @@ section 배포
 배포 준비 :2024-02-16, 1d
 시스템 배포 :2024-02-16, 1d
 ```
-## 5. 와이어프레임 
+## 5. 와이어프레임
+![01_메인 페이지](https://github.com/JoohyungDev/product-pricing/assets/113663639/f6f1ab9c-75c7-47b5-b5d6-186bdf907fe3)
+
