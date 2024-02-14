@@ -27,7 +27,7 @@
   - GitHub Pages
 
 ### 2.2 배포 URL
-- https://therealparkjoohyung.github.io/product-pricing/
+- https://joohyungdev.github.io/product-pricing/
 
 ### 2.3 URL 구조
 
