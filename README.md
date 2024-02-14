@@ -46,9 +46,9 @@
 | App       | URL                                        | Views Function    | File Name                             | Note           |
 |-----------|--------------------------------------------|-------------------|---------------------------------------|----------------|
 | accounts  | 'sign_up/'                                 | sign up           | accounts/sign_up.html                 |회원가입         |
-| accounts  | 'log_in/'                                  | log_in            | accounts/log_in.html                  |로그인           |
-| accounts  | 'find_id/'                                 | find_id           | accounts/find_id.html                 |아이디 찾기      |
-| accounts  | 'find_pw/'                                 | find_pw           | accounts/find_pw.html                 |비밀번호 찾기    |
+| accounts  | 'log_in/'                                  | log in            | accounts/log_in.html                  |로그인           |
+| accounts  | 'find_id/'                                 | find id           | accounts/find_id.html                 |아이디 찾기      |
+| accounts  | 'find_pw/'                                 | find password     | accounts/find_pw.html                 |비밀번호 찾기    |
 
 - styles
 
