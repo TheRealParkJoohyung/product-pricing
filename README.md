@@ -41,6 +41,15 @@
 |-----------|--------------------------------------------|-------------------|----------------------------------|----------------|
 | main      | '/'                                        | home              | main/home.js                     | 홈화면 동작     |
 
+- accounts
+
+| App       | URL                                        | Views Function    | HTML File Name                        | Note           |
+|-----------|--------------------------------------------|-------------------|---------------------------------------|----------------|
+| accounts  | 'sign_up/'                                 | sign up           | accounts/sign_up.html                 |회원가입         |
+| accounts  | 'log_in/'                                  | log_in            | accounts/log_in.html                  |로그인           |
+| accounts  | 'find_id/'                                 | find_id           | accounts/find_id.html                 |아이디 찾기      |
+| accounts  | 'find_pw/'                                 | find_pw           | accounts/find_pw.html                 |비밀번호 찾기    |
+
 ## 3. 요구사항 명세와 기능 명세 
 ```mermaid
     sequenceDiagram
@@ -64,7 +73,7 @@
 📦product_pricing
  ┣ 📂accounts
  ┃ ┣ 📜find_id.html
- ┃ ┣ 📜find_password.html
+ ┃ ┣ 📜find_pw.html
  ┃ ┣ 📜log_in.html
  ┃ ┗ 📜sign_up.html
  ┣ 📂main
