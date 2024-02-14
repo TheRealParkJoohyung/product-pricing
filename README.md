@@ -159,6 +159,7 @@ section 배포
 시스템 배포 :2024-02-16, 1d
 ```
 ## 5. 와이어프레임
-![언어변환](https://github.com/JoohyungDev/product-pricing/assets/113663639/0a310454-d403-446d-93f0-893dd61ee08c)
+![언어 변환](https://github.com/JoohyungDev/product-pricing/assets/113663639/7fa0c737-1431-4297-acb3-07f239955ce2)
+
 
 
