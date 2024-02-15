@@ -168,7 +168,7 @@ section 배포
     <tbody>
         <tr>
             <td>메인</td>
-            <td>로그인</td>
+            <td>다크모드</td>
         </tr>
         <tr>
             <td>
