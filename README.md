@@ -40,7 +40,7 @@
 
 | App       | URL                                        | Views Function    | File Name                        | Note           |
 |-----------|--------------------------------------------|-------------------|----------------------------------|----------------|
-| main      | 'home/'                                    | home              | main/home.js                     | 홈화면 동작     |
+| main      | 'index/'                                    | index             | main/index.js                    | 홈화면 동작     |
 
 - accounts
 
@@ -50,6 +50,7 @@
 | accounts  | 'log_in/'                                  | log in            | accounts/log_in.html                  |로그인           |
 | accounts  | 'find_id/'                                 | find id           | accounts/find_id.html                 |아이디 찾기      |
 | accounts  | 'find_pw/'                                 | find password     | accounts/find_pw.html                 |비밀번호 찾기    |
+| accounts  | 'font/'                                    | font              | font.css                              |폰트            |
 
 - styles
 
