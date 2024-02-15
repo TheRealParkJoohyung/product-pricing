@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>비밀번호 찾기</title>
+        <style>
+            .find-password-form {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 400px;
+                margin: 0 auto;
+                padding: 100px 30px;
+                background-color: #f3f3f3;
+                border: 1px solid #ccc;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .find-password-form input {
+                display: block;
+                width: 98%;
+                margin-bottom: 10px;
+            }
+
+            .find-password-form button {
+                display: block;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 비밀번호 찾기 폼 -->
+        <form class="find-password-form" id="findPasswordForm">
+            <label for="username"></label>
+            <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Username"
+                required
+            />
+            <label for="email"></label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+            />
+            <button id="btn-submit">제출</button>
+        </form>
+
+        <script>
+            // 입력값이 공백이거나 비어있는지 체크하는 함수
+            function isEmptyOrWhitespace(str) {
+                return !str || str.trim() === "";
+            }
+
+            // 제출 버튼 요소 참조
+            const submitBtn = document.querySelector("#btn-submit");
+
+            // 제출 버튼 클릭 이벤트
+            submitBtn.addEventListener("click", function () {
+                event.preventDefault();
+                const usernameInput = document.querySelector("#username");
+                const emailInput = document.querySelector("#email");
+
+                const username = usernameInput.value;
+                const email = emailInput.value;
+                if (
+                    isEmptyOrWhitespace(username) ||
+                    isEmptyOrWhitespace(email)
+                ) {
+                    alert("값이 비어있습니다.");
+                    return;
+                }
+
+                alert(
+                    `비밀번호 찾기 요청이 완료되었습니다. ${email}로 새 비밀번호를 전송해드리겠습니다.`
+                );
+                // 요청 완료 후 원래의 페이지로 이동
+                window.location.href = "../home.html";
+
+                // 입력된 값을 초기화
+                usernameInput.value = "";
+                emailInput.value = "";
+            });
+        </script>
+    </body>
+</html>

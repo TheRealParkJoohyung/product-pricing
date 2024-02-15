@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Log in</title>
+        <link rel="stylesheet" href="../styles/reset.css" />
+        <style>
+            /* 로그인 폼 스타일 */
+            .login-form {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 400px;
+                margin: 0 auto;
+                padding: 100px 30px;
+                background-color: #f3f3f3;
+                border: 1px solid #ccc;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            /* 로그인 폼 내부 요소 스타일 */
+            .login-form input {
+                display: block;
+                width: 98%;
+                margin-bottom: 10px;
+            }
+
+            .login-form button {
+                display: block;
+                width: 100%;
+            }
+            /* 추가 기능 링크 스타일 */
+            .login-form .extra-features {
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .login-form .extra-features a {
+                margin-right: 10px;
+                text-decoration-line: none;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 로그인 폼 -->
+        <form class="login-form" id="loginForm">
+            <label for="username"></label>
+            <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Username"
+                required
+            />
+            <label for="password"></label>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Password"
+                required
+            />
+            <button id="btn-submit">Submit</button>
+            <!-- 회원가입과 아이디, 비밀번호 찾기 링크 추가 -->
+            <div class="extra-features">
+                <a href="sign_up.html">회원가입</a>
+                <a href="find_id.html">아이디 찾기</a>
+                <a href="find_pw.html">비밀번호 찾기</a>
+            </div>
+        </form>
+
+        <script>
+            // 제출 버튼 요소 참조
+            const submitBtn = document.querySelector("#btn-submit");
+
+            // 제출 버튼 클릭 이벤트
+            submitBtn.addEventListener("click", function () {
+                event.preventDefault();
+                const usernameInput = document.querySelector("#username");
+                const passwordInput = document.querySelector("#password");
+
+                const username = usernameInput.value;
+                const password = passwordInput.value;
+
+                if (username === "admin" && password === "1q2w3e4r") {
+                    alert(`환영합니다. 관리자님`);
+                    // 로그인 성공 후 원래의 페이지로 이동
+                    window.location.href = "../home.html";
+                } else {
+                    alert("다시 입력해주세요");
+                }
+
+                // 입력된 값을 초기화
+                usernameInput.value = "";
+                passwordInput.value = "";
+            });
+        </script>
+    </body>
+</html>

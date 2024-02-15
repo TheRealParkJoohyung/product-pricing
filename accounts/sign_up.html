@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>회원가입</title>
+        <style>
+            .signup-form {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 400px;
+                margin: 0 auto;
+                padding: 100px 30px;
+                background-color: #f3f3f3;
+                border: 1px solid #ccc;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .signup-form input {
+                display: block;
+                width: 98%;
+                margin-bottom: 10px;
+            }
+
+            .signup-form button {
+                display: block;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 회원가입 폼 -->
+        <form class="signup-form" id="signupForm">
+            <label for="username"></label>
+            <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Username"
+                required
+            />
+            <label for="password"></label>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Password"
+                required
+            />
+            <label for="confirm-password"></label>
+            <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                placeholder="Confirm Password"
+                required
+            />
+            <button id="btn-submit">Submit</button>
+        </form>
+
+        <script>
+            // 입력값이 공백이거나 비어있는지 체크하는 함수
+            function isEmptyOrWhitespace(str) {
+                return !str || str.trim() === "";
+            }
+
+            // Submit 버튼
+            const submitBtn = document.querySelector("#btn-submit");
+
+            // Submit 버튼 클릭 이벤트 함수
+            submitBtn.addEventListener("click", function () {
+                event.preventDefault();
+                const usernameInput = document.querySelector("#username");
+                const passwordInput = document.querySelector("#password");
+                const confirmPasswordInput =
+                    document.querySelector("#confirm-password");
+
+                const username = usernameInput.value;
+                const password = passwordInput.value;
+                const confirmPassword = confirmPasswordInput.value;
+
+                if (
+                    isEmptyOrWhitespace(username) ||
+                    isEmptyOrWhitespace(password) ||
+                    isEmptyOrWhitespace(confirmPassword)
+                ) {
+                    alert("값이 비어있습니다.");
+                    return;
+                } else if (password !== confirmPassword) {
+                    alert("비밀번호가 다릅니다.");
+                    return;
+                }
+
+                alert(`환영합니다, ${username}님! 회원가입이 완료되었습니다.`);
+                // home 페이지로 이동
+                window.location.href = "../home.html";
+
+                // 입력 초기화
+                usernameInput.value = "";
+                passwordInput.value = "";
+                confirmPasswordInput.value = "";
+            });
+        </script>
+    </body>
+</html>
