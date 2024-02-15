@@ -7,6 +7,7 @@ const $field_result = document.querySelector(".field-result");
 const $form = document.querySelector("form");
 
 // openAI API
+import config from "./src/config.js";
 const url = config.apikey;
 
 // 언어 변환 버튼 참조
