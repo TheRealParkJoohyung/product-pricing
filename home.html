@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>가치를 보다</title>
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+    </head>
+
+    <body>
+        <header class="tit-header">
+            <h1 class="a11y">로고와 기타 페이지 연결 부분</h1>
+            <img
+                class="tit-logo"
+                src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYT1MUwwaaRiVJnmjbg4IHjODMg2Oa13LT6KKJOr5AR3FCukWoWV7JLAQUkC6c8Ip3UD_vtePy9DMnB48m0rkkG6UvLrbQ=w2560-h1271"
+                alt="회사 로고"
+            />
+            <nav>
+                <a href="accounts/log_in.html">로그인</a>
+                <button id="btn-change-language">언어</button>
+                <button id="btn-theme">테마</button>
+            </nav>
+        </header>
+        <main class="contents">
+            <img
+                class="img-main"
+                src="https://thx2.sfo2.cdn.digitaloceanspaces.com/detail_meaning/%EC%9C%A0%EA%B0%80%EB%AC%BC_1.webp"
+                alt="서비스의 특성을 나타내는 이미지. 출처 : https://wordrow.kr/%EC%9D%98%EB%AF%B8/%EC%9C%A0%EA%B0%80%EB%AC%BC/"
+            />
+            <form action="post">
+                <h2 class="cont-header">물품 정보 입력</h2>
+                <h3 class="cont-p-header" id="components">
+                    구성품을 갖고 계신가요?
+                </h3>
+                <p>
+                    <input
+                        type="radio"
+                        name="component"
+                        value="있다"
+                        id="yes"
+                        checked
+                    />
+                    <label for="yes">있다</label>
+                    <input
+                        type="radio"
+                        name="component"
+                        value="없다"
+                        id="no"
+                        class="cont-radio"
+                    />
+                    <label for="no">없다</label>
+                </p>
+                <h3 class="cont-p-header">품목을 선택해주세요</h3>
+                <p>
+                    <label for="category"></label>
+                    <select id="category" class="cont-p-element">
+                        <option value="디지털기기">디지털기기(Digital)</option>
+                        <option value="가구">가구(Furniture)</option>
+                        <option value="유아동">유아동(Toddlers)</option>
+                        <option value="의류">의류(Clothing)</option>
+                        <option value="생활가전">
+                            생활가전(Home appliances)
+                        </option>
+                        <option value="생활/주방">
+                            생활/주방(Life & Kitchen)
+                        </option>
+                        <option value="스포츠/레저">
+                            스포츠/레저(Sports/Leisure)
+                        </option>
+                        <option value="취미/게임/음반">
+                            취미/게임/음반(Hobbies/Games/Music)
+                        </option>
+                        <option value="뷰티/미용">뷰티/미용(Beauty)</option>
+                        <option value="반려동물용품">
+                            반려동물용품(Pet supplies)
+                        </option>
+                        <option value="식품">식품(Food)</option>
+                        <option value="도서">도서(Books)</option>
+                    </select>
+                </p>
+                <h3 class="cont-p-header">사용 기간을 선택해주세요</h3>
+                <p>
+                    <label for="date"></label>
+                    <select id="date" class="cont-p-element">
+                        <option value="1개월 이내">
+                            1개월 이내(Within 1 month)
+                        </option>
+                        <option value="3개월 이내">
+                            3개월 이내(Within 3 month)
+                        </option>
+                        <option value="6개월 이내">
+                            6개월 이내(Within 6 month)
+                        </option>
+                        <option value="1년 이내">
+                            1년 이내(Within 1 year)
+                        </option>
+                        <option value="2년 이내">
+                            2년 이내(Within 2 year)
+                        </option>
+                        <option value="3년 이내">
+                            3년 이내(Within 3 year)
+                        </option>
+                        <option value="기타">기타(Other)</option>
+                    </select>
+                </p>
+                <h3 class="cont-p-header">물품의 상태를 선택해주세요</h3>
+                <p>
+                    <label for="status"></label>
+                    <select name="status" id="status" class="cont-p-element">
+                        <option
+                            value="새 제품 같다(박스 개봉 후 거의 사용하지 않음)"
+                        >
+                            새 제품 같음(Rarely used out of the box)
+                        </option>
+                        <option
+                            value="매우 좋다(사용 흔적은 있지만 큰 결함 없음)"
+                        >
+                            매우 좋음(Shows signs of use but no major flaws)
+                        </option>
+                        <option
+                            value="좋다(일반적인 사용 흔적과 소소한 스크래치 있음)"
+                        >
+                            좋음(Has general signs of use and minor scratches)
+                        </option>
+                        <option
+                            value="보통이다(많은 사용 흔적과 몇몇 스크래치 있음)"
+                        >
+                            보통(Lots of signs of use and a few scratches)
+                        </option>
+                        <option
+                            value="나쁨이다(큰 스크래치나 기능상의 결함 있음)"
+                        >
+                            나쁨(Has large scratches or functional defects)
+                        </option>
+                    </select>
+                </p>
+                <h3 class="cont-p-header">구매한 가격을 입력해주세요</h3>
+                <p>
+                    <label for="cost"></label>
+                    <input id="cost" class="cont-p-element" type="text" />
+                </p>
+                <button class="btn-calc" type="submit">계산하기</button>
+            </form>
+            <div class="result">
+                <h2>계산 결과</h2>
+                <fieldset class="field-result"></fieldset>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-contents">
+                <p class="footer-text">
+                    중고 물품의 가치를 정확하게 책정하여, 사용자들이 합리적인
+                    거래를 할 수 있도록 돕고 있습니다.
+                </p>
+                <div class="contact-info">
+                    <p><strong>주소:</strong> 서울특별시 강남구 테헤란로 123</p>
+                    <p><strong>전화:</strong> 02-1234-5678</p>
+                    <p><strong>이메일:</strong> contact@valuemore.com</p>
+                </div>
+                <p class="copyright">
+                    Copyright © 2024 가치를 보다. All rights reserved.
+                </p>
+            </div>
+        </footer>
+        <!-- defer : DOM 트리가 완전히 구상된 후에 js파일을 실행하겠다! -->
+        <script src="main/home.js" defer></script>
+    </body>
+</html>
