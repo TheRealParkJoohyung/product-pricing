@@ -59,7 +59,7 @@ document.querySelector("#btn-theme").addEventListener("click", function () {
 });
 
 // openAI API
-let url = `https://open-api.jejucodingcamp.workers.dev/`;
+let url = `API key`;
 
 // 질문 초기화
 let question;
