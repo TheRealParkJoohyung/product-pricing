@@ -192,8 +192,8 @@ section 배포
             </td>
         </tr>
         <tr>
-            <td>검색</td>
-            <td>번역</td>
+            <td>로그인</td>
+            <td>회원가입</td>
         </tr>
         <tr>
             <td>
@@ -204,8 +204,8 @@ section 배포
             </td>
         </tr>
         <tr>
-            <td>선택삭제</td>
-            <td>글쓰기</td>
+            <td>아이디 찾기</td>
+            <td>비밀번호 찾기</td>
         </tr>
         <tr>
             <td>
