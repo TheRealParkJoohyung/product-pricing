@@ -209,10 +209,10 @@ section 배포
         </tr>
         <tr>
             <td>
-	        <img src="find_id.png" width="100%">
+	        <img src="samples/find_id.png" width="100%">
             </td>
             <td>
-                <img src="find_pw.png" width="100%">
+                <img src="samples/find_pw.png" width="100%">
             </td>
         </tr>
     </tbody>
