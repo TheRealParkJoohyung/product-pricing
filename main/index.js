@@ -6,6 +6,9 @@ const $cost = document.querySelector("#cost");
 const $field_result = document.querySelector(".field-result");
 const $form = document.querySelector("form");
 
+// openAI API
+const url = config.apikey;
+
 // 언어 변환 버튼 참조
 const btn_change_language = document.querySelector("#btn-change-language");
 const translations = {
@@ -57,9 +60,6 @@ btn_change_language.addEventListener("click", function () {
 document.querySelector("#btn-theme").addEventListener("click", function () {
     document.body.classList.toggle("dark-mode");
 });
-
-// openAI API
-let url = `https://open-api.jejucodingcamp.workers.dev/`;
 
 // 질문 초기화
 let question;
