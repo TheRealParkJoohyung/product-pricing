@@ -122,17 +122,8 @@
  ┃ ┣ 📜reset.css
  ┃ ┗ 📜style.css
  ┣ 📜.gitignore
- ┣ 📜change_lang.png
- ┣ 📜dark_mode.png
- ┣ 📜eng_calc.png
- ┣ 📜find_id.png
- ┣ 📜find_pw.png
  ┣ 📜index.html
- ┣ 📜kor_calc.png
- ┣ 📜light_mode.png
- ┣ 📜log_in.png
- ┣ 📜README.md
- ┗ 📜sing_up.png
+ ┗ 📜README.md
 ```
 ### 4.2 개발 일정(WBS)
 ```mermaid
