@@ -13,6 +13,8 @@ const translations = {
     로그인: "Log in",
     Language: "언어",
     언어: "Language",
+    테마: "theme",
+    theme: "테마",
     "물품 정보 입력": "Enter item information",
     "Enter item information": "물품 정보 입력",
     "구성품을 갖고 계신가요?": "Do you have components?",
