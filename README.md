@@ -173,10 +173,10 @@ section 배포
         </tr>
         <tr>
             <td>
-		<img src="light_mode.png" width="100%">
+		<img src="samples/light_mode.png" width="100%">
             </td>
             <td>
-                <img src="dark_mode.png" width="100%">
+                <img src="samples/dark_mode.png" width="100%">
             </td>
         </tr>
         <tr>
@@ -185,43 +185,31 @@ section 배포
         </tr>
         <tr>
             <td>
-                <img src="kor_calc.png" width="100%">
+                <img src="samples/kor_calc.png" width="100%">
             </td>
             <td>
-                <img src="eng_calc.png" width="100%">
+                <img src="samples/eng_calc.png" width="100%">
             </td>
         </tr>
         <tr>
-            <td>검색</td>
-            <td>번역</td>
+            <td>로그인</td>
+            <td>회원가입</td>
         </tr>
         <tr>
-            <td>
-                <img src="ui3.png" width="100%">
-            </td>
             <td>
                 <img src="ui3.png" width="100%">
             </td>
+            <td>
+                <img src="ui3.png" width="100%">
+            </td>
         </tr>
         <tr>
-            <td>선택삭제</td>
-            <td>글쓰기</td>
+            <td>아이디 찾기</td>
+            <td>비밀번호 찾기</td>
         </tr>
         <tr>
             <td>
 	        <img src="ui3.png" width="100%">
-            </td>
-            <td>
-                <img src="ui3.png" width="100%">
-            </td>
-        </tr>
-        <tr>
-            <td>글 상세보기</td>
-            <td>댓글</td>
-        </tr>
-        <tr>
-            <td>
-                <img src="ui3.png" width="100%">
             </td>
             <td>
                 <img src="ui3.png" width="100%">
