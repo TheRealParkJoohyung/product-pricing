@@ -200,7 +200,7 @@ section 배포
                 <img src="samples/log_in.png" width="100%">
             </td>
             <td>
-                <img src="ui3.png" width="100%">
+                <img src="samples/sign_up.png" width="100%">
             </td>
         </tr>
         <tr>
@@ -209,10 +209,10 @@ section 배포
         </tr>
         <tr>
             <td>
-	        <img src="ui3.png" width="100%">
+	        <img src="find_id.png" width="100%">
             </td>
             <td>
-                <img src="ui3.png" width="100%">
+                <img src="find_pw.png" width="100%">
             </td>
         </tr>
     </tbody>
