@@ -1,0 +1,156 @@
+/* 글씨 폰트 추가 */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+.a11y {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    clip-path: inset(50%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    box-sizing: border-box;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+header {
+    width: 100%;
+}
+
+.tit-header {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 5px;
+    height: 80px;
+    border: 2px solid #d9dbe0;
+    align-items: center;
+    width: 100%;
+    max-width: 1190px;
+}
+
+.tit-header .tit-logo {
+    margin-left: 20px;
+}
+
+.tit-header nav {
+    margin-left: auto;
+}
+
+a,
+#btn-change-language,
+#btn-theme {
+    text-decoration-line: none;
+    box-sizing: border-box;
+    color: #2e6ff2;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    margin: 10px;
+}
+
+#btn-change-language,
+#btn-theme {
+    border: none;
+    background: transparent;
+}
+
+.contents {
+    display: flex;
+}
+
+.contents .img-main {
+    box-sizing: border-box;
+    width: 560px;
+    height: 560px;
+    border-radius: 10px;
+    margin-top: 140px;
+}
+
+.contents form {
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-top: 120px;
+}
+
+.contents form .cont-header {
+    margin-bottom: 32px;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contents form .cont-p-header {
+    margin-bottom: 10px;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contents form .cont-p-element {
+    margin-bottom: 14px;
+    width: 590px;
+}
+
+.contents form #cost {
+    width: 99.1%;
+}
+
+.contents form .btn-calc {
+    width: 590px;
+    height: 50px;
+    border-radius: 5px;
+    background: #2e6ff2;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.contents .result {
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 779px;
+}
+
+.contents .result .field-result {
+    border: 2px solid #d9dbe0;
+    background-color: white;
+    color: black;
+    width: 1160px;
+    margin-bottom: 559px;
+}
+
+.footer-contents {
+    box-sizing: border-box;
+    margin-top: 800px;
+    width: 100vw;
+    height: 250px;
+    border: 2px solid #d9dbe0;
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 50px;
+}
