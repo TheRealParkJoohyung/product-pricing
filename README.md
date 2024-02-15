@@ -15,7 +15,8 @@
 - 로그인
 - 회원가입
 - 아이디 / 비밀번호 찾기
-- 다양한 언어 지원 
+- 다양한 언어 지원
+- 라이트모드 / 다크모드
 
 ### 1.4 팀 구성
 - 개인 프로젝트
@@ -114,11 +115,11 @@
  ┃ ┣ 📜log_in.html
  ┃ ┗ 📜sign_up.html
  ┣ 📂main
- ┃ ┗ 📜home.js
+ ┃ ┗ 📜index.js
  ┣ 📂styles
  ┃ ┣ 📜reset.css
  ┃ ┗ 📜style.css
- ┗ 📜home.html
+ ┗ 📜index.html
 ```
 ### 4.2 개발 일정(WBS)
 ```mermaid
@@ -158,8 +159,76 @@ section 배포
 배포 준비 :2024-02-16, 1d
 시스템 배포 :2024-02-16, 1d
 ```
-## 5. 와이어프레임
+## 5. 와이어프레임 / UI
+### 5.1 와이어프레임
 ![와이어프레임](https://github.com/JoohyungDev/product-pricing/assets/113663639/9ba14319-10ac-442d-ba8f-f75ac8ac06b3)
+
+### 5.2 화면 설계
+<table>
+    <tbody>
+        <tr>
+            <td>메인</td>
+            <td>로그인</td>
+        </tr>
+        <tr>
+            <td>
+		<img src="ui1.png" width="100%">
+            </td>
+            <td>
+                <img src="ui2.png" width="100%">
+            </td>
+        </tr>
+        <tr>
+            <td>회원가입</td>
+            <td>정보수정</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="ui3.png" width="100%">
+            </td>
+            <td>
+                <img src="ui3.png" width="100%">
+            </td>
+        </tr>
+        <tr>
+            <td>검색</td>
+            <td>번역</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="ui3.png" width="100%">
+            </td>
+            <td>
+                <img src="ui3.png" width="100%">
+            </td>
+        </tr>
+        <tr>
+            <td>선택삭제</td>
+            <td>글쓰기</td>
+        </tr>
+        <tr>
+            <td>
+	        <img src="ui3.png" width="100%">
+            </td>
+            <td>
+                <img src="ui3.png" width="100%">
+            </td>
+        </tr>
+        <tr>
+            <td>글 상세보기</td>
+            <td>댓글</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="ui3.png" width="100%">
+            </td>
+            <td>
+                <img src="ui3.png" width="100%">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 
