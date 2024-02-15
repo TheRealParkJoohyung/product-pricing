@@ -6,13 +6,14 @@
         <title>Log in</title>
         <link rel="stylesheet" href="../styles/reset.css" />
         <style>
+            @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
             /* 로그인 폼 스타일 */
             .login-form {
                 position: fixed;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                width: 400px;
+                width: 410px;
                 margin: 0 auto;
                 padding: 100px 30px;
                 background-color: #f3f3f3;
@@ -29,6 +30,9 @@
             .login-form button {
                 display: block;
                 width: 100%;
+                background-color: #2e6ff2;
+                color: #ffffff;
+                font-family: Spoqa Han Sans Neo;
             }
             /* 추가 기능 링크 스타일 */
             .login-form .extra-features {
@@ -40,6 +44,27 @@
                 margin-right: 10px;
                 text-decoration-line: none;
                 color: black;
+            }
+
+            /* 회원가입 텍스트 뒤에 바 추가 */
+            .sign_up::after {
+                content: "";
+                display: inline-block;
+                height: 14px;
+                width: 1px;
+                margin-left: 20px;
+                background-color: #767676;
+                vertical-align: -1px;
+            }
+
+            .find_id::after {
+                content: "";
+                display: inline-block;
+                height: 14px;
+                width: 1px;
+                margin-left: 20px;
+                background-color: #767676;
+                vertical-align: -1px;
             }
         </style>
     </head>
@@ -65,8 +90,8 @@
             <button id="btn-submit">로그인</button>
             <!-- 회원가입과 아이디, 비밀번호 찾기 링크 추가 -->
             <div class="extra-features">
-                <a href="sign_up.html">회원가입</a>
-                <a href="find_id.html">아이디 찾기</a>
+                <a href="sign_up.html" class="sign_up">회원가입</a>
+                <a href="find_id.html" class="find_id">아이디 찾기</a>
                 <a href="find_pw.html">비밀번호 찾기</a>
             </div>
         </form>
