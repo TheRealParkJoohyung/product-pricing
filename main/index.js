@@ -61,12 +61,6 @@ document.querySelector("#btn-theme").addEventListener("click", function () {
     document.body.classList.toggle("dark-mode");
 });
 
-<<<<<<< HEAD
-=======
-// openAI API
-let url = `API key`;
-
->>>>>>> 38530e5162dcca748f7df191431d45a802ee57b6
 // 질문 초기화
 let question;
 
