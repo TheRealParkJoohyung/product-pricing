@@ -175,7 +175,7 @@ section 배포
 		<img src="light_mode.png" width="50%">
             </td>
             <td>
-                <img src="ui2.png" width="100%">
+                <img src="dark_mode.png" width="50%">
             </td>
         </tr>
         <tr>
