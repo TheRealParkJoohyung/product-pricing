@@ -115,11 +115,11 @@
  ┃ ┣ 📜log_in.html
  ┃ ┗ 📜sign_up.html
  ┣ 📂main
- ┃ ┗ 📜home.js
+ ┃ ┗ 📜index.js
  ┣ 📂styles
  ┃ ┣ 📜reset.css
  ┃ ┗ 📜style.css
- ┗ 📜home.html
+ ┗ 📜index.html
 ```
 ### 4.2 개발 일정(WBS)
 ```mermaid
