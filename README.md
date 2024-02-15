@@ -197,7 +197,7 @@ section 배포
         </tr>
         <tr>
             <td>
-                <img src="ui3.png" width="100%">
+                <img src="samples/log_in.png" width="100%">
             </td>
             <td>
                 <img src="ui3.png" width="100%">
