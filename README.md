@@ -109,13 +109,24 @@
 ### 4.1 프로젝트 구조 
 ```
 📦product_pricing
-┣ 📂accounts
+ ┣ 📂accounts
  ┃ ┣ 📜find_id.html
  ┃ ┣ 📜find_pw.html
+ ┃ ┣ 📜font.css
  ┃ ┣ 📜log_in.html
  ┃ ┗ 📜sign_up.html
  ┣ 📂main
  ┃ ┗ 📜index.js
+ ┣ 📂samples
+ ┃ ┣ 📜change_lang.png
+ ┃ ┣ 📜dark_mode.png
+ ┃ ┣ 📜eng_calc.png
+ ┃ ┣ 📜find_id.png
+ ┃ ┣ 📜find_pw.png
+ ┃ ┣ 📜kor_calc.png
+ ┃ ┣ 📜light_mode.png
+ ┃ ┣ 📜log_in.png
+ ┃ ┗ 📜sign_up.png
  ┣ 📂styles
  ┃ ┣ 📜reset.css
  ┃ ┗ 📜style.css
