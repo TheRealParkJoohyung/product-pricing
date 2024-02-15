@@ -172,10 +172,10 @@ section 배포
         </tr>
         <tr>
             <td>
-		<img src="light_mode.png" width="50%">
+		<img src="light_mode.png" width="100%">
             </td>
             <td>
-                <img src="dark_mode.png" width="50%">
+                <img src="dark_mode.png" width="100%">
             </td>
         </tr>
         <tr>
