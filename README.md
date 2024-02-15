@@ -172,7 +172,7 @@ section 배포
         </tr>
         <tr>
             <td>
-		<img src="ui1.png" width="100%">
+		<img src="light_mode.png" width="100%">
             </td>
             <td>
                 <img src="ui2.png" width="100%">
