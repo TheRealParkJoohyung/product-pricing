@@ -116,12 +116,9 @@
  ┃ ┗ 📜sign_up.html
  ┣ 📂main
  ┃ ┗ 📜index.js
- ┣ 📂src
- ┃ ┗ 📜config.js
  ┣ 📂styles
  ┃ ┣ 📜reset.css
  ┃ ┗ 📜style.css
- ┣ 📜.gitignore
  ┣ 📜index.html
  ┗ 📜README.md
 ```
