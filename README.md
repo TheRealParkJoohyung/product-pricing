@@ -168,14 +168,14 @@ section 배포
     <tbody>
         <tr>
             <td>메인</td>
-            <td>로그인</td>
+            <td>다크모드</td>
         </tr>
         <tr>
             <td>
-		<img src="ui1.png" width="100%">
+		<img src="light_mode.png" width="100%">
             </td>
             <td>
-                <img src="ui2.png" width="100%">
+                <img src="dark_mode.png" width="100%" height="50%">
             </td>
         </tr>
         <tr>
