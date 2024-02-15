@@ -180,15 +180,15 @@ section 배포
             </td>
         </tr>
         <tr>
-            <td>회원가입</td>
-            <td>정보수정</td>
+            <td>계산하기</td>
+            <td>계산하기(영문)</td>
         </tr>
         <tr>
             <td>
-                <img src="ui3.png" width="100%">
+                <img src="kor_calc.png" width="100%">
             </td>
             <td>
-                <img src="ui3.png" width="100%">
+                <img src="eng_calc.png" width="100%">
             </td>
         </tr>
         <tr>
