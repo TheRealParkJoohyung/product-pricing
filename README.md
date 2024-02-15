@@ -159,8 +159,12 @@ section 배포
 배포 준비 :2024-02-16, 1d
 시스템 배포 :2024-02-16, 1d
 ```
-## 5. 와이어프레임
+## 5. 와이어프레임 / UI
+### 5.1 와이어프레임
 ![와이어프레임](https://github.com/JoohyungDev/product-pricing/assets/113663639/9ba14319-10ac-442d-ba8f-f75ac8ac06b3)
+
+### 5.2 화면 설계
+
 
 
 
