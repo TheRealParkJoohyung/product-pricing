@@ -215,18 +215,6 @@ section 배포
                 <img src="ui3.png" width="100%">
             </td>
         </tr>
-        <tr>
-            <td>글 상세보기</td>
-            <td>댓글</td>
-        </tr>
-        <tr>
-            <td>
-                <img src="ui3.png" width="100%">
-            </td>
-            <td>
-                <img src="ui3.png" width="100%">
-            </td>
-        </tr>
     </tbody>
 </table>
 
