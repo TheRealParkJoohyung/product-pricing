@@ -129,10 +129,11 @@ main {
     border: 2px solid #d9dbe0;
     background-color: white;
     color: black;
-    width: 1160px;
+    width: 1190px;
     margin-bottom: 559px;
 }
 
+/* footer 부분 */
 .footer-contents {
     box-sizing: border-box;
     margin-top: 800px;
