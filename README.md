@@ -109,17 +109,21 @@
 ### 4.1 프로젝트 구조 
 ```
 📦product_pricing
- ┣ 📂accounts
+┣ 📂accounts
  ┃ ┣ 📜find_id.html
  ┃ ┣ 📜find_pw.html
  ┃ ┣ 📜log_in.html
  ┃ ┗ 📜sign_up.html
  ┣ 📂main
  ┃ ┗ 📜index.js
+ ┣ 📂src
+ ┃ ┗ 📜config.js
  ┣ 📂styles
  ┃ ┣ 📜reset.css
  ┃ ┗ 📜style.css
- ┗ 📜index.html
+ ┣ 📜.gitignore
+ ┣ 📜index.html
+ ┗ 📜README.md
 ```
 ### 4.2 개발 일정(WBS)
 ```mermaid
