@@ -43,8 +43,10 @@ let is_english = false;
 // 언어를 변경해주는 함수
 btn_change_language.addEventListener("click", function () {
     is_english = !is_english;
+    // 각 요소에 대해, 자식 노드가 하나만 있고 그 노드가 텍스트 노드이면(3) 실행하는 함수
     document.body.querySelectorAll("*").forEach(function (node) {
         if (node.childNodes.length === 1 && node.childNodes[0].nodeType === 3) {
+            // 텍스트를 가져오고 양쪽 끝의 공백 제거
             const text = node.textContent.trim();
             if (translations[text]) {
                 node.textContent = translations[text];
@@ -53,7 +55,7 @@ btn_change_language.addEventListener("click", function () {
     });
 });
 
-// 버튼 클릭 시 테마 전환
+// 버튼 클릭 시 테마 전환(라이트 모드 <-> 다크 모드)
 document.querySelector("#btn-theme").addEventListener("click", function () {
     document.body.classList.toggle("dark-mode");
 });
@@ -97,6 +99,7 @@ const printAnswer = (answer) => {
 
 // api 요청보내는 함수
 const apiPost = async () => {
+    // await 키워드를 사용하여 Promise의 결과를 기다림
     const result = await fetch(url, {
         method: "POST",
         headers: {
@@ -105,7 +108,9 @@ const apiPost = async () => {
         body: JSON.stringify(data),
         redirect: "follow",
     })
+        // fetch 함수가 제대로 동작하면 응답을 json으로 파싱
         .then((res) => res.json())
+        // 파싱된 json을 조작
         .then((res) => {
             const answer = res.choices[0].message.content;
             printAnswer(answer);
@@ -124,6 +129,7 @@ const apiPost = async () => {
                 }
             });
         })
+        // 통신 과정중 오류가 발생하면 실행
         .catch((err) => {
             console.log(err);
         });
