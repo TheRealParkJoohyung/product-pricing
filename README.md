@@ -173,10 +173,10 @@ section 배포
         </tr>
         <tr>
             <td>
-		<img src="light_mode.png" width="100%">
+		<img src="samples/light_mode.png" width="100%">
             </td>
             <td>
-                <img src="dark_mode.png" width="100%">
+                <img src="samples/dark_mode.png" width="100%">
             </td>
         </tr>
         <tr>
@@ -185,10 +185,10 @@ section 배포
         </tr>
         <tr>
             <td>
-                <img src="kor_calc.png" width="100%">
+                <img src="samples/kor_calc.png" width="100%">
             </td>
             <td>
-                <img src="eng_calc.png" width="100%">
+                <img src="samples/eng_calc.png" width="100%">
             </td>
         </tr>
         <tr>
