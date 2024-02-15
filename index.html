@@ -30,11 +30,11 @@
                 alt="서비스의 특성을 나타내는 이미지. 출처 : https://wordrow.kr/%EC%9D%98%EB%AF%B8/%EC%9C%A0%EA%B0%80%EB%AC%BC/"
             />
             <form action="post">
-                <h2 class="cont-header">물품 정보 입력</h2>
-                <h3 class="cont-p-header" id="components">
-                    구성품을 갖고 계신가요?
-                </h3>
-                <p>
+                <h2 class="form-header">물품 정보 입력</h2>
+                <div class="form-field">
+                    <h3 class="form-field-title" id="components">
+                        구성품을 갖고 계신가요?
+                    </h3>
                     <input
                         type="radio"
                         name="component"
@@ -51,11 +51,11 @@
                         class="cont-radio"
                     />
                     <label for="no">없다</label>
-                </p>
-                <h3 class="cont-p-header">품목을 선택해주세요</h3>
-                <p>
-                    <label for="category"></label>
-                    <select id="category" class="cont-p-element">
+                </div>
+                <div class="form-field">
+                    <h3 class="form-field-title">품목을 선택해주세요</h3>
+                    <label for="category" class="a11y">카테고리:</label>
+                    <select id="category" class="form-select">
                         <option value="디지털기기">디지털기기(Digital)</option>
                         <option value="가구">가구(Furniture)</option>
                         <option value="유아동">유아동(Toddlers)</option>
@@ -79,11 +79,11 @@
                         <option value="식품">식품(Food)</option>
                         <option value="도서">도서(Books)</option>
                     </select>
-                </p>
-                <h3 class="cont-p-header">사용 기간을 선택해주세요</h3>
-                <p>
-                    <label for="date"></label>
-                    <select id="date" class="cont-p-element">
+                </div>
+                <div class="form-field">
+                    <h3 class="form-field-title">사용 기간을 선택해주세요</h3>
+                    <label for="date" class="a11y">date:</label>
+                    <select id="date" class="form-select">
                         <option value="1개월 이내">
                             1개월 이내(Within 1 month)
                         </option>
@@ -104,11 +104,11 @@
                         </option>
                         <option value="오래">기타(Other)</option>
                     </select>
-                </p>
-                <h3 class="cont-p-header">물품의 상태를 선택해주세요</h3>
-                <p>
-                    <label for="status"></label>
-                    <select name="status" id="status" class="cont-p-element">
+                </div>
+                <h3 class="form-field-title">물품의 상태를 선택해주세요</h3>
+                <div class="form-field">
+                    <label for="status" class="a11y">status:</label>
+                    <select name="status" id="status" class="form-select">
                         <option
                             value="새 제품 같다(박스 개봉 후 거의 사용하지 않음)"
                         >
@@ -135,12 +135,12 @@
                             나쁨(Has large scratches or functional defects)
                         </option>
                     </select>
-                </p>
-                <h3 class="cont-p-header">구매한 가격을 입력해주세요</h3>
-                <p>
-                    <label for="cost"></label>
-                    <input id="cost" class="cont-p-element" type="text" />
-                </p>
+                </div>
+                <div class="form-field">
+                    <h3 class="form-field-title">구매한 가격을 입력해주세요</h3>
+                    <label for="cost" class="a11y">cost:</label>
+                    <input id="cost" class="form-input-text" type="text" />
+                </div>
                 <button class="btn-calc" type="submit">계산하기</button>
             </form>
             <div class="result">
