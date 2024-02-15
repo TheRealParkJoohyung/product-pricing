@@ -20,6 +20,12 @@
                 border: 1px solid #ccc;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             }
+
+            .form-logo {
+                display: block;
+                margin-left: 40%;
+                margin-bottom: 48px;
+            }
             /* 로그인 폼 내부 요소 스타일 */
             .login-form input {
                 display: block;
@@ -45,7 +51,6 @@
                 text-decoration-line: none;
                 color: black;
             }
-
             /* 회원가입 텍스트 뒤에 바 추가 */
             .sign_up::after {
                 content: "";
@@ -71,6 +76,11 @@
     <body>
         <!-- 로그인 폼 -->
         <form class="login-form" id="loginForm">
+            <img
+                class="form-logo"
+                src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYT1MUwwaaRiVJnmjbg4IHjODMg2Oa13LT6KKJOr5AR3FCukWoWV7JLAQUkC6c8Ip3UD_vtePy9DMnB48m0rkkG6UvLrbQ=w2560-h1271"
+                alt="로고"
+            />
             <label for="username"></label>
             <input
                 type="text"
@@ -99,7 +109,6 @@
         <script>
             // 제출 버튼 요소 참조
             const submitBtn = document.querySelector("#btn-submit");
-
             // 제출 버튼 클릭 이벤트
             submitBtn.addEventListener("click", function () {
                 event.preventDefault();
@@ -116,7 +125,6 @@
                 } else {
                     alert("다시 입력해주세요");
                 }
-
                 // 입력된 값을 초기화
                 usernameInput.value = "";
                 passwordInput.value = "";
