@@ -77,8 +77,8 @@
     participant F as Styles App
 
     A->>+B: 홈 화면 로딩
-    B->>+D: 'home/' 요청
-    D-->>-B: main/home.js 전달
+    B->>+D: 'index/' 요청
+    D-->>-B: main/index.js 전달
     B-->>-A: 홈 화면 출력
 
     A->>+B: 회원가입 클릭
