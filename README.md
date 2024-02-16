@@ -141,8 +141,8 @@ gantt
 dateFormat YYYY-MM-DD
 
 section 홈 화면
-'home/' 요청 로직 구현 :2024-02-10, 3d
-main/home.js 작성 :2024-02-10, 3d
+'index/' 요청 로직 구현 :2024-02-10, 3d
+main/index.js 작성 :2024-02-10, 3d
 홈 화면 테스트 :2024-02-10, 3d
 
 section 스타일
