@@ -141,14 +141,14 @@ gantt
 dateFormat YYYY-MM-DD
 
 section 홈 화면
-'home/' 요청 로직 구현 :2024-02-12, 1d
-main/home.js 작성 :2024-02-12, 1d
-홈 화면 테스트 :2024-02-12, 1d
+'home/' 요청 로직 구현 :2024-02-10, 1d
+main/home.js 작성 :2024-02-10, 1d
+홈 화면 테스트 :2024-02-10, 1d
 
 section 스타일
-styles/reset.css 작성 :2024-02-12, 1d
-styles/style.css 작성 :2024-02-12, 1d
-스타일 적용 테스트 :2024-02-12, 1d
+styles/reset.css 작성 :2024-02-10, 1d
+styles/style.css 작성 :2024-02-10, 1d
+스타일 적용 테스트 :2024-02-10, 1d
 
 section 회원가입
 'sign_up/' 요청 처리 로직 구현 :2024-02-13, 1d
@@ -171,6 +171,7 @@ section 테스트
 section 배포
 배포 준비 :2024-02-16, 1d
 시스템 배포 :2024-02-16, 1d
+
 ```
 ## 5. 와이어프레임 / UI
 ### 5.1 와이어프레임
