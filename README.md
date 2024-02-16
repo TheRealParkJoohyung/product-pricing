@@ -230,7 +230,24 @@ section 배포
     </tbody>
 </table>
 
-## 6. 에러와 에러 해결
+## 6. 시연
+### 계산하기
+![kor_calc](https://github.com/JoohyungDev/product-pricing/assets/113663639/d6a5ea57-7bb2-49d1-bdd6-1a41338e78f1)
+### 계산하기(영문)
+![eng_calc](https://github.com/JoohyungDev/product-pricing/assets/113663639/1f4fecd7-e6c9-47d9-9a64-82ef7d17ea01)
+### 다크모드 
+![dark_mode](https://github.com/JoohyungDev/product-pricing/assets/113663639/8671e33f-f782-4fcd-8db1-764b6f3f6506)
+### 로그인
+![log_in](https://github.com/JoohyungDev/product-pricing/assets/113663639/d7874699-9a80-4afd-99da-50b9ef95b772)
+### 회원가입
+![sign_up](https://github.com/JoohyungDev/product-pricing/assets/113663639/60b906d1-f83a-41e2-8e31-086d6cf290fc)
+### 아이디 찾기
+![find_id](https://github.com/JoohyungDev/product-pricing/assets/113663639/1e98890b-dd46-4d8d-a690-79c0dd436340)
+### 비밀번호 찾기
+![find_pw](https://github.com/JoohyungDev/product-pricing/assets/113663639/d2255ba0-3a31-4b0b-b7c7-0e7b62867273)
+
+
+## 7. 에러와 에러 해결
 ### 1. 사용자의 입력을 받는 부분에서 라디오 버튼의 값(value)를 JS 파일에서 받아오지 못하였음
 - 라디오 버튼의 입력값을 `.value`로 받는 것이 아닌, 라디오 버튼의 쿼리를 순회를 돌며 `.defaultValue`를 사용하여 받아올 수 있었습니다.
 ### 2. ChatGPT에게 API를 요청하는 함수의 작동 오류
@@ -238,7 +255,7 @@ section 배포
 ### 3. console.log 자주 찍어보기
 - 생각하는 대로 잘 동작하는지 확인하기 위해 `console.log`를 자주 찍어보며 진행을 하였습니다. 이러한 습관 덕분에 오류를 금방 해결할 수 있었던 것 같습니다. 
 
-## 7. 개발하며 느낀점
+## 8. 개발하며 느낀점
 어렵지만 관심있는 주제로 프로젝트를 한다는 것 자체가 재미있는 경험이었습니다. 
 "배우는 것이 끝이 아니라 활용해보는 것이 중요하다"는 말을 제대로 이해할 수 있었습니다. 
 그리고, 기획 단계의 중요성을 절실하게 깨닫게 되었습니다. 
