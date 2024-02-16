@@ -231,28 +231,28 @@ section 배포
 </table>
 
 ## 6. 시연
-### 6.1 계산하기
+### 계산하기
 ![kor_calc](https://github.com/JoohyungDev/product-pricing/assets/113663639/d6a5ea57-7bb2-49d1-bdd6-1a41338e78f1)
-### 6.2 계산하기(영문)
+### 계산하기(영문)
 ![eng_calc](https://github.com/JoohyungDev/product-pricing/assets/113663639/1f4fecd7-e6c9-47d9-9a64-82ef7d17ea01)
-### 6.3 다크모드 
+### 다크모드 
 ![dark_mode](https://github.com/JoohyungDev/product-pricing/assets/113663639/8671e33f-f782-4fcd-8db1-764b6f3f6506)
-### 6.4 로그인
+### 로그인
 ![log_in](https://github.com/JoohyungDev/product-pricing/assets/113663639/d7874699-9a80-4afd-99da-50b9ef95b772)
-### 6.5 회원가입
+### 회원가입
 ![sign_up](https://github.com/JoohyungDev/product-pricing/assets/113663639/60b906d1-f83a-41e2-8e31-086d6cf290fc)
-### 6.6 아이디 찾기
+### 아이디 찾기
 ![find_id](https://github.com/JoohyungDev/product-pricing/assets/113663639/1e98890b-dd46-4d8d-a690-79c0dd436340)
-### 6.7 비밀번호 찾기
+### 비밀번호 찾기
 ![find_pw](https://github.com/JoohyungDev/product-pricing/assets/113663639/d2255ba0-3a31-4b0b-b7c7-0e7b62867273)
 
 
 ## 7. 에러와 에러 해결
-### 7.1 사용자의 입력을 받는 부분에서 라디오 버튼의 값(value)를 JS 파일에서 받아오지 못하였음
+### 사용자의 입력을 받는 부분에서 라디오 버튼의 값(value)를 JS 파일에서 받아오지 못하였음
 - 라디오 버튼의 입력값을 `.value`로 받는 것이 아닌, 라디오 버튼의 쿼리를 순회를 돌며 `.defaultValue`를 사용하여 받아올 수 있었습니다.
-### 7.2 ChatGPT에게 API를 요청하는 함수의 작동 오류
+### ChatGPT에게 API를 요청하는 함수의 작동 오류
 - 처음에는 버튼 이벤트 리스너 함수 안에 API 요청 함수를 넣었으나 정상적으로 작동하지 않았습니다. 이를 이벤트 리스너 함수 밖으로 빼서 해결하였습니다.
-### 7.3 console.log 자주 찍어보기
+### console.log 자주 찍어보기
 - 생각하는 대로 잘 동작하는지 확인하기 위해 `console.log`를 자주 찍어보며 진행을 하였습니다. 이러한 습관 덕분에 오류를 금방 해결할 수 있었던 것 같습니다. 
 
 ## 8. 개발하며 느낀점
@@ -261,13 +261,13 @@ section 배포
 그리고, 기획 단계의 중요성을 절실하게 깨닫게 되었습니다. 
 마지막으로 추가하면 좋겠다고 생각한 부분을 정리하고 마무리 하겠습니다.
 
-### 8.1 데이터 베이스 추가 
+### 데이터 베이스 추가 
 - 데이터베이스에 사용자의 입력 값을 저장한다음 추후에 다시 검색하지 않고도 비슷한 물건을 바로 확인 가능하게끔 구현하면 좋을 것 같다고 생각했습니다.
-### 8.2 백엔드 부분 추가 
+### 백엔드 부분 추가 
 - 지금은 언어 번역 기능을 JS파일에 직접 입력하여 작성하였지만 백엔드 부분을 추가하여 그 백엔드 부분에서 언어 번역 기능을 구현하면 좋을 것 같다고 생각했습니다.
-### 8.3 API 추가
+### API 추가
 - 중고마켓의 API로 홈 화면에 인기있는 카테고리의 정보를 좌 / 우측에 띄우면 좋을 것 같다고 생각했습니다.
-### 8.4 사용자 경험 개선
+### 사용자 경험 개선
 - 계산 결과를 기다리는 동안 모래시계 그림 혹은 텍스트를 설정하여 입력을 잘 받았으며 계산중이라는 것을 알려주어 사용자 경험을 개선할 수 있을 것이라고 생각했습니다.
 
 
