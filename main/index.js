@@ -99,40 +99,42 @@ const printAnswer = (answer) => {
 
 // api 요청보내는 함수
 const apiPost = async () => {
-    // await 키워드를 사용하여 Promise의 결과를 기다림
-    const result = await fetch(url, {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-        redirect: "follow",
-    })
-        // fetch 함수가 제대로 동작하면 응답을 json으로 파싱
-        .then((res) => res.json())
-        // 파싱된 json을 조작
-        .then((res) => {
-            const answer = res.choices[0].message.content;
-            printAnswer(answer);
-
-            // 요청이 성공적으로 완료되었으므로 input 필드 초기화
-            $category.value = "";
-            $date.value = "";
-            $status.value = "";
-            $cost.value = "";
-
-            // radio 버튼 초기화
-            const radioValue = document.getElementsByName("component");
-            radioValue.forEach((radio) => {
-                if (radio.checked) {
-                    radio.checked = false;
-                }
-            });
+    try {
+        // await 키워드를 사용하여 Promise의 결과를 기다림
+        const result = await fetch(url, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data),
+            redirect: "follow",
         })
-        // 통신 과정중 오류가 발생하면 실행
-        .catch((err) => {
-            console.log(err);
+
+        // fetch 함수가 제대로 동작하면 응답을 json으로 파싱
+        const res = await result.json();
+
+        // 파싱된 json을 조작
+        const answer = res.choices[0].message.content;
+        printAnswer(answer);
+
+        // 요청이 성공적으로 완료되었으므로 input 필드 초기화
+        $category.value = "";
+        $date.value = "";
+        $status.value = "";
+        $cost.value = "";
+
+        // radio 버튼 초기화
+        const radioValue = document.getElementsByName("component");
+        radioValue.forEach((radio) => {
+            if (radio.checked) {
+                radio.checked = false;
+            }
         });
+    } catch (err) {
+        // 통신 과정중 오류가 발생하면 실행
+        console.error(err);
+        alert('API 통신 중 오류가 발생했습니다. 나중에 다시 시도해주세요.');
+    }
 };
 
 // 사용자의 radio 선택값을 반환하는 함수
